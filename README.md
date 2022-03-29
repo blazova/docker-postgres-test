@@ -1,8 +1,6 @@
 Docker running Postgres (public)
 
-Follow along YouTube tutorial: https://www.youtube.com/watch?v=aHbE3pTyG-Q
-
-Postgres image used: https://hub.docker.com/_/postgres
+Follow along YouTube [tutorial](https://www.youtube.com/watch?v=aHbE3pTyG-Q) | [Postgres image](https://hub.docker.com/_/postgres) used 
 
 - pull Postgres Alpine as this is the lightest version, excellent for testing and getting started wit
 
@@ -27,7 +25,7 @@ $ \l
 
 Connect to the container from the local machine
 
-Make sure some version of psql is installed locally (https://formulae.brew.sh/formula/postgresql) 
+Make sure some version of psql is installed locally (e.g. [via homebrew](https://formulae.brew.sh/formula/postgresql))
 
 (check: `less ~/.zshrc`)
 
