@@ -1,4 +1,4 @@
-Docker running Postgres (public)
+## 1. Docker running Postgres (public)
 
 Follow along YouTube [tutorial](https://www.youtube.com/watch?v=aHbE3pTyG-Q) | [Postgres image](https://hub.docker.com/_/postgres) used 
 
@@ -23,7 +23,7 @@ $ \l
 
 ```
 
-Connect to the container from the local machine
+### Connect to the container from the local machine
 
 Make sure some version of psql is installed locally (e.g. [via homebrew](https://formulae.brew.sh/formula/postgresql))
 
@@ -38,3 +38,6 @@ $ \dt;
 $ \d student;
 ```
 
+## 2. Docker running a Node.js app
+
+Following Docker [docs](https://docs.docker.com/get-started/02_our_app/)
